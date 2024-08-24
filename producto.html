@@ -23,8 +23,30 @@
         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
     </nav>
 
-    <main class="contenedor">
-        <h1>Producto</h1>
+    <main class="contenedor contenedor--alto">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <div class="camisa__imagen__contenedor">
+                <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+            </div>
+            
+            <div class="camisa__contenido">
+                <p class="camisa__texto">Donec fringilla elementum ipsum in sodales. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Sed vitae velit vitae augue placerat ornare.
+                Nullam molestie nibh tellus, in tristique mauris gravida in.</p>
+
+                <form action="#" class="formulario">
+                    <select id="talle" class=" formulario__campo formulario__campo--select" required>
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input id="cantidad" class="formulario__campo" type="number" placeholder="Cantidad" min="1" required>
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
